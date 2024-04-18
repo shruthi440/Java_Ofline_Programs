@@ -1,0 +1,11 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+package com.ihub.www;
+
+public class StaticNestedClassConcept {
+   public StaticNestedClassConcept() {
+   }
+
+   public void myOuterClassMethod() {
+      System.out.println("This is outer class method");
+   }
+}

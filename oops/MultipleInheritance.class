@@ -1,0 +1,12 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+package com.java8feaures.www;
+
+public class MultipleInheritance {
+   public MultipleInheritance() {
+   }
+
+   public static void main(String[] args) {
+      Middle m = new Middle();
+      m.method1();
+   }
+}

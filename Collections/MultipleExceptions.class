@@ -1,0 +1,16 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+package com.collections.www;
+
+public class MultipleExceptions {
+   public MultipleExceptions() {
+   }
+
+   public static void main(String[] args) {
+      try {
+         System.out.println(10 / 0);
+      } catch (NullPointerException | ClassCastException | ArithmeticException var2) {
+         System.out.println("Catch-block");
+      }
+
+   }
+}

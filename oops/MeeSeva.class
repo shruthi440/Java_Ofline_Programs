@@ -1,0 +1,19 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+package com.oops.www;
+
+public class MeeSeva {
+   public MeeSeva() {
+   }
+
+   public void search(int voterIdNo) {
+      System.out.println("Voter details found via voterIdNo");
+   }
+
+   public void search(String HouseNo) {
+      System.out.println("Voter details found via HouseNo");
+   }
+
+   public void search(long AadhaarCard) {
+      System.out.println("Voter details found via AadhaarCard");
+   }
+}

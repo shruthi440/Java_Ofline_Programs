@@ -1,0 +1,11 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+package com.oops.www;
+
+public class child extends parent {
+   public child() {
+   }
+
+   public void marry() {
+      System.out.print("Rashmika");
+   }
+}

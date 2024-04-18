@@ -1,0 +1,30 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+package com.strings.www;
+
+public class MostRepeating {
+   public MostRepeating() {
+   }
+
+   public static void main(String[] args) {
+      String str = "ihubinstitute";
+      int maxCount = 0;
+      char character = ' ';
+
+      for(int i = 0; i < str.length(); ++i) {
+         int cnt = 0;
+
+         for(int j = 0; j < str.length(); ++j) {
+            if (str.charAt(i) == str.charAt(j)) {
+               ++cnt;
+            }
+         }
+
+         if (maxCount < cnt) {
+            maxCount = cnt;
+            character = str.charAt(i);
+         }
+      }
+
+      System.out.println(character + "is repeating for" + maxCount);
+   }
+}

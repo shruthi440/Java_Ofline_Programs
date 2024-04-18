@@ -1,0 +1,19 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+package com.strings.www;
+
+public class ReverseOfASentence {
+   public ReverseOfASentence() {
+   }
+
+   public static void main(String[] args) {
+      String str = "This is java class";
+      String[] sarr = str.split(" ");
+      String rev = "";
+
+      for(int i = sarr.length - 1; i >= 0; --i) {
+         rev = rev + sarr[i] + " ";
+      }
+
+      System.out.println(rev);
+   }
+}

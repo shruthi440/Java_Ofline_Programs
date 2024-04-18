@@ -1,0 +1,22 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+package com.collections.www;
+
+import java.time.LocalDate;
+
+public class ComparisionOfDate {
+   public ComparisionOfDate() {
+   }
+
+   public static void main(String[] args) {
+      LocalDate d1 = LocalDate.now();
+      LocalDate d2 = LocalDate.now();
+      if (d1.compareTo(d2) < 0) {
+         System.out.println("Date 1 is less than date2");
+      } else if (d1.compareTo(d2) > 0) {
+         System.out.println("Date 1 is greater than date2");
+      } else {
+         System.out.println("Both dates are same");
+      }
+
+   }
+}

@@ -1,0 +1,12 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+package com.ihub.www;
+
+class InnerClassConcept$MyInnerClass {
+   InnerClassConcept$MyInnerClass(InnerClassConcept this$0) {
+      this.this$0 = this$0;
+   }
+
+   public void innerClassMethod() {
+      System.out.println("This is inner class method");
+   }
+}

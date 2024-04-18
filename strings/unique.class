@@ -1,0 +1,25 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+package com.strings.www;
+
+public class unique {
+   public unique() {
+   }
+
+   public static void main(String[] args) {
+      String str = "Google";
+      String duplicates = "";
+      String unique = "";
+
+      for(int i = 0; i < str.length(); ++i) {
+         String current = Character.toString(str.charAt(i));
+         if (unique.contains(current) && !duplicates.contains(current)) {
+            duplicates = duplicates + current;
+         } else {
+            unique = unique + current;
+         }
+      }
+
+      System.out.println("Duplicate characters:" + duplicates);
+      System.out.println("unique characters:" + unique);
+   }
+}

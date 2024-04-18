@@ -1,0 +1,28 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+package com.java.www;
+
+import java.util.Scanner;
+
+public class Reverse {
+   public Reverse() {
+   }
+
+   void method1() {
+      Scanner sc = new Scanner(System.in);
+      System.out.println("Enter the number");
+      int n = sc.nextInt();
+      int rem = false;
+
+      int rev;
+      for(rev = 0; n > 0; n /= 10) {
+         int rem = n % 10;
+         rev = rev * 10 + rem;
+      }
+
+      System.out.println("Reverse of a given number is" + rev);
+   }
+
+   public static void main(String[] args) {
+      (new Reverse()).method1();
+   }
+}

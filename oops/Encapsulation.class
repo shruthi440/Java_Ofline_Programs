@@ -1,0 +1,45 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+package com.oops.www;
+
+public class Encapsulation {
+   private int stuId;
+   private String sName;
+   private double sFee;
+
+   public Encapsulation() {
+   }
+
+   public int getStuId() {
+      return this.stuId;
+   }
+
+   public String getsName() {
+      return this.sName;
+   }
+
+   public void setsName(String sName) {
+      this.sName = sName;
+   }
+
+   public double getsFee() {
+      return this.sFee;
+   }
+
+   public void setsFee(double sFee) {
+      this.sFee = sFee;
+   }
+
+   public void setStuId(int stuId) {
+      this.stuId = stuId;
+   }
+
+   public static void main(String[] args) {
+      Encapsulation e = new Encapsulation();
+      e.setStuId(101);
+      e.setsName("Shruthi");
+      e.setsFee(10000.0);
+      System.out.println("StudentId:" + e.getStuId());
+      System.out.println("StudentName:" + e.getsName());
+      System.out.println("StudentFee:" + e.getsFee());
+   }
+}

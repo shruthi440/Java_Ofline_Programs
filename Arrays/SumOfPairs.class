@@ -1,0 +1,25 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+package com.arrays.www;
+
+public class SumOfPairs {
+   public SumOfPairs() {
+   }
+
+   void method() {
+      int[] arr = new int[]{4, 6, 2, 8, 7, 3, 9, 1};
+      int sum = 10;
+
+      for(int i = 0; i < arr.length; ++i) {
+         for(int j = i + 1; j < arr.length; ++j) {
+            if (arr[i] + arr[j] == sum) {
+               System.out.println(arr[i] + " " + arr[j]);
+            }
+         }
+      }
+
+   }
+
+   public static void main(String[] args) {
+      (new SumOfPairs()).method();
+   }
+}

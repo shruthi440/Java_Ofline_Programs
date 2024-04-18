@@ -1,0 +1,33 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+package com.ihub.www;
+
+public class DepartmentComposition {
+   private String deptId;
+   private String deptLoc;
+
+   public String getDeptId() {
+      return this.deptId;
+   }
+
+   public void setDeptId(String deptId) {
+      this.deptId = deptId;
+   }
+
+   public String getDeptLoc() {
+      return this.deptLoc;
+   }
+
+   public void setDeptLoc(String deptLoc) {
+      this.deptLoc = deptLoc;
+   }
+
+   DepartmentComposition(String deptId, String deptLoc) {
+      this.deptId = deptId;
+      this.deptLoc = deptLoc;
+   }
+
+   public static void main(String[] args) {
+      DepartmentAggregation departmentAggregation = new DepartmentAggregation("123", "Hyderabad", (String)null);
+      System.out.println("DepartmentId is=====>" + departmentAggregation.getDeptId());
+   }
+}

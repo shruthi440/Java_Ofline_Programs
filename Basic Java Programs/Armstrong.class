@@ -1,0 +1,34 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+package com.java.www;
+
+import java.util.Scanner;
+
+public class Armstrong {
+   public Armstrong() {
+   }
+
+   void method() {
+      Scanner sc = new Scanner(System.in);
+      System.out.println("Enter the number");
+      int n = sc.nextInt();
+      int rem = false;
+      int sum = 0;
+
+      int temp;
+      for(temp = n; n > 0; n /= 10) {
+         int rem = n % 10;
+         sum += rem * rem * rem;
+      }
+
+      if (temp == sum) {
+         System.out.println("It is an Armstrong number");
+      } else {
+         System.out.println("It is  not an Armstrong number");
+      }
+
+   }
+
+   public static void main(String[] args) {
+      (new Armstrong()).method();
+   }
+}

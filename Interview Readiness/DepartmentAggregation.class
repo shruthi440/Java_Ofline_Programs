@@ -1,0 +1,44 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+package com.ihub.www;
+
+public class DepartmentAggregation {
+   private String EmployeePojo;
+   private String employeePojo;
+   private String deptId;
+   private String deptLoc;
+
+   public String getEmployeePojo() {
+      return this.EmployeePojo;
+   }
+
+   public void setEmployeePojo(String employeePojo) {
+      this.EmployeePojo = employeePojo;
+   }
+
+   public String getDeptId() {
+      return this.deptId;
+   }
+
+   public void setDeptId(String deptId) {
+      this.deptId = deptId;
+   }
+
+   public String getDeptLoc() {
+      return this.deptLoc;
+   }
+
+   public void setDeptLoc(String deptLoc) {
+      this.deptLoc = deptLoc;
+   }
+
+   DepartmentAggregation(String deptId, String deptLoc, String employeePojo) {
+      this.deptId = deptId;
+      this.deptLoc = deptLoc;
+      this.employeePojo = employeePojo;
+   }
+
+   public static void main(String[] args) {
+      DepartmentAggregation departmentAggregation = new DepartmentAggregation("123", "Hyderabad", (String)null);
+      System.out.println("DepartmentId is=====>" + departmentAggregation.getDeptId());
+   }
+}

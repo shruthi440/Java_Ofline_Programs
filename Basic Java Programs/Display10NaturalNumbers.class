@@ -1,0 +1,19 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+package com.java.www;
+
+public class Display10NaturalNumbers {
+   public Display10NaturalNumbers() {
+   }
+
+   void method() {
+      for(int i = 1; i <= 10; ++i) {
+         System.out.print(i + " ");
+      }
+
+   }
+
+   public static void main(String[] args) {
+      Display10NaturalNumbers obj = new Display10NaturalNumbers();
+      obj.method();
+   }
+}

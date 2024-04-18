@@ -1,0 +1,35 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+package com.java.www;
+
+import java.util.Scanner;
+
+public class palindrome {
+   public palindrome() {
+   }
+
+   void method1() {
+      Scanner sc = new Scanner(System.in);
+      System.out.println("Enter the number");
+      int n = sc.nextInt();
+      int rem = false;
+      int rev = 0;
+      int temp = n;
+
+      while(n > 0) {
+         int rem = n % 10;
+         rev = rev * 10 + rem;
+         n /= 10;
+         if (temp == rev) {
+            System.out.println("It is a palindrome");
+         } else {
+            System.out.println("It is not a palindrome number");
+         }
+      }
+
+   }
+
+   public static void main(String[] args) {
+      palindrome obj = new palindrome();
+      obj.method1();
+   }
+}

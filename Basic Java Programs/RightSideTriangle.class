@@ -1,0 +1,27 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+package com.java.www;
+
+public class RightSideTriangle {
+   public RightSideTriangle() {
+   }
+
+   void method() {
+      for(int i = 1; i <= 4; ++i) {
+         int j;
+         for(j = 4; j > i; --j) {
+            System.out.print(" ");
+         }
+
+         for(j = 1; j <= i; ++j) {
+            System.out.print("*");
+         }
+
+         System.out.println();
+      }
+
+   }
+
+   public static void main(String[] args) {
+      (new RightSideTriangle()).method();
+   }
+}

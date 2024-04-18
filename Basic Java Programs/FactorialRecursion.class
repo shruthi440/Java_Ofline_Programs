@@ -1,0 +1,28 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+package com.java.www;
+
+import java.util.Scanner;
+
+public class FactorialRecursion {
+   public FactorialRecursion() {
+   }
+
+   void method() {
+      Scanner sc = new Scanner(System.in);
+      System.out.println("Enter the number");
+      int n = sc.nextInt();
+      System.out.println("Factorial of a given number is=" + fact(n));
+   }
+
+   public static int fact(int n) {
+      if (n < 0) {
+         return -1;
+      } else {
+         return n == 1 ? 1 : n * fact(n - 1);
+      }
+   }
+
+   public static void main(String[] args) {
+      (new FactorialRecursion()).method();
+   }
+}

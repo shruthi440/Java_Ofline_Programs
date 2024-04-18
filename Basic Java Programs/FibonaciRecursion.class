@@ -1,0 +1,28 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+package com.java.www;
+
+import java.util.Scanner;
+
+public class FibonaciRecursion {
+   public FibonaciRecursion() {
+   }
+
+   void method() {
+      Scanner sc = new Scanner(System.in);
+      System.out.println("Enter the number");
+      int n = sc.nextInt();
+      System.out.println("Fibonacci of given series is=" + fibonacci(n));
+   }
+
+   public static int fibonacci(int n) {
+      if (n != 0 && n != 1) {
+         return n == 2 ? 1 : fibonacci(n - 1) + fibonacci(n - 2);
+      } else {
+         return 0;
+      }
+   }
+
+   public static void main(String[] args) {
+      (new FibonaciRecursion()).method();
+   }
+}

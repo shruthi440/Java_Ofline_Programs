@@ -1,0 +1,13 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+package com.ihub.www;
+
+public class SettingAndGettingNameOfTheThreadExecution {
+   public SettingAndGettingNameOfTheThreadExecution() {
+   }
+
+   public static void main(String[] args) {
+      SettingAndGettingNameOfTheThread settingAndGettingNameOfTheThread = new SettingAndGettingNameOfTheThread();
+      Thread thread = new Thread((Runnable)settingAndGettingNameOfTheThread);
+      thread.start();
+   }
+}

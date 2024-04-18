@@ -1,0 +1,23 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+package com.java.www;
+
+import java.util.Scanner;
+
+public class ProductOfTwoNumbers {
+   public ProductOfTwoNumbers() {
+   }
+
+   void method() {
+      Scanner sc = new Scanner(System.in);
+      System.out.println("Enter the first number");
+      int a = sc.nextInt();
+      System.out.println("Enter the second number");
+      int b = sc.nextInt();
+      int c = a * b;
+      System.out.println("the product of " + a + " and " + b + " is" + c);
+   }
+
+   public static void main(String[] args) {
+      (new ProductOfTwoNumbers()).method();
+   }
+}

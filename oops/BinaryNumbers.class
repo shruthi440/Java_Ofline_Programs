@@ -1,0 +1,26 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+package com.oops.www;
+
+import java.util.Scanner;
+
+public class BinaryNumbers {
+   public BinaryNumbers() {
+   }
+
+   void method() {
+      Scanner sc = new Scanner(System.in);
+      System.out.println("Enter the  first binary number");
+      String binary1 = sc.next();
+      System.out.println("Enter the  second binary number");
+      String binary2 = sc.next();
+      int a = Integer.parseInt(binary1, 2);
+      int b = Integer.parseInt(binary2, 2);
+      int c = a + b;
+      String result = Integer.toBinaryString(c);
+      System.out.println(result);
+   }
+
+   public static void main(String[] args) {
+      (new BinaryNumbers()).method();
+   }
+}

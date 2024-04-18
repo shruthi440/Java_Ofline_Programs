@@ -1,0 +1,14 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+package com.strings.www;
+
+public class RightRotation {
+   public RightRotation() {
+   }
+
+   public static void main(String[] args) {
+      String str = "Ihubtalent";
+      int count = 2;
+      str = str.substring(str.length() - count, str.length()) + str.substring(0, str.length() - count);
+      System.out.println(str);
+   }
+}

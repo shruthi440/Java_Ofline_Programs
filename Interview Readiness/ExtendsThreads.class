@@ -1,0 +1,11 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+package com.ihub.www;
+
+public class ExtendsThreads extends Thread {
+   public ExtendsThreads() {
+   }
+
+   public void Run() {
+      System.out.println("Hi I am using Threads by extending the thread");
+   }
+}

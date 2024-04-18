@@ -1,0 +1,8 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+package com.java8feaures.www;
+
+public interface Left {
+   default void method1() {
+      System.out.println("Left-method1 method");
+   }
+}

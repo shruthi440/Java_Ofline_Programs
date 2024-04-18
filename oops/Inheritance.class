@@ -1,0 +1,17 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+package com.oops.www;
+
+public class Inheritance {
+   public Inheritance() {
+   }
+
+   public static void main(String[] args) {
+      A a = new A();
+      a.m1();
+      B b = new B();
+      b.m2();
+      b.m1();
+      A a1 = new B();
+      a1.m1();
+   }
+}

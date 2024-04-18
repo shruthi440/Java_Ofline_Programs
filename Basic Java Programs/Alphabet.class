@@ -1,0 +1,30 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+package com.java.www;
+
+import java.util.Scanner;
+
+public class Alphabet {
+   public Alphabet() {
+   }
+
+   void method1() {
+      Scanner sc = new Scanner(System.in);
+      System.out.println("Enter the alphabet");
+      char ch = sc.next().charAt(0);
+      if (ch >= 'A' && ch <= 'Z') {
+         System.out.println("It is uppercase letter");
+      } else if (ch >= 'a' && ch <= 'z') {
+         System.out.println("It is lowercase letter");
+      } else if (ch >= '0' && ch <= '9') {
+         System.out.println("It is Digit");
+      } else {
+         System.out.println("It is a special symbol");
+      }
+
+   }
+
+   public static void main(String[] args) {
+      Alphabet obj = new Alphabet();
+      obj.method1();
+   }
+}

@@ -1,0 +1,28 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+package com.java.www;
+
+public class EvenOdd {
+   public EvenOdd() {
+   }
+
+   void method() {
+      int even = 0;
+      int odd = 0;
+
+      for(int i = 1; i <= 10; ++i) {
+         if (i % 2 == 0) {
+            ++even;
+         } else {
+            ++odd;
+         }
+      }
+
+      System.out.println("no of even numbers is " + even);
+      System.out.println("no of odd numbers is " + odd);
+   }
+
+   public static void main(String[] args) {
+      EvenOdd obj = new EvenOdd();
+      obj.method();
+   }
+}

@@ -1,0 +1,35 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+package com.java.www;
+
+import java.util.Scanner;
+
+public class PrimeNumbers {
+   public PrimeNumbers() {
+   }
+
+   void method() {
+      Scanner sc = new Scanner(System.in);
+      System.out.println("Enter the number");
+      int n = sc.nextInt();
+      boolean flag = true;
+
+      for(int i = 2; i <= n / 2; ++i) {
+         if (n % i == 0) {
+            flag = false;
+            break;
+         }
+
+         if (flag) {
+            System.out.println("It is a primeNumber");
+         } else {
+            System.out.println("It is not a primeNumber");
+         }
+      }
+
+   }
+
+   public static void main(String[] args) {
+      PrimeNumbers obj = new PrimeNumbers();
+      obj.method();
+   }
+}

@@ -1,0 +1,8 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+package com.java8feaures.www;
+
+public interface Right {
+   default void method1() {
+      System.out.println("Right-Method1 method");
+   }
+}

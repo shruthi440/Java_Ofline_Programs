@@ -1,0 +1,21 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+package com.arrays.www;
+
+public class Spiral {
+   public Spiral() {
+   }
+
+   void method() {
+      int[][] matrix = new int[][]{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+      int rows = matrix.length;
+      int cols = matrix[0].length;
+      int top = false;
+      int bottom = rows - 1;
+      int left = 0;
+      int right = cols - 1;
+
+      while(left <= right) {
+      }
+
+   }
+}
